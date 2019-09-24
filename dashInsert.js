@@ -39,9 +39,9 @@ console.log(result) // "1-3"
 function dashInsert(num) {
 	// Your code
 	var outputString = "";
-	var array = num.tostring().split("");
+	var array = num.toString().split("");
 	//console.log(array) a number has become a string and the split breaks the string apart to make it an array
-	for (var = 0; i < array.length; i++){
+	for (var i = 0; i < array.length; i++){
 		if(array[i] % 2 === 1 && array[i + 1] % 2 ===1){
 			outputString = outputString + array[i] + "-";
 		}else{
