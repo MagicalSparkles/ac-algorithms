@@ -56,7 +56,7 @@ function swapCase(str) {
 	// 	 : 
 	// 		output += letter[i].toUpperCase()
 	// }
-	//? true ; false, .map a simlifeies of writing for loops for arrays. It goes through each item and does the associated code block function. ? is a ternary statement where you have a condition nd then a question mark follow by what you want then a colon of what you want. += (output = output + array[i]; is the same as output += array[i];)
+	//? true ; false, .map a simplified of writing for loops for arrays. It goes through each item and does the associated code block function. ? is a ternary statement where you have a condition nd then a question mark follow by what you want then a colon of what you want. += (output = output + array[i]; is the same as output += array[i];)
 	// condition ? output : output
 	for(var i = 0; i <array.length; i++){
 		if(array[i] === array[i].toLowerCase()){
