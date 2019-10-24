@@ -11,7 +11,7 @@
 //The character and its pair are paired up in an array, and all the arrays are grouped into one encapsulating array.
 
 //********************Notes***********************************//
-                  //My pseudo code
+//My pseudo code
 //Input: string
 //Output: nested array
 //tools: For loop, conditional statement, variable to store the output, .split(), .push()
@@ -22,22 +22,22 @@
 //create 2 variables, one that stores the transformation of the input string into an array. create  a second variable that stores an empty array/our output.
 //create a for loop that runs through the array
 //create a conditional statement that checks to see if the current letter we are on in the loop is equal to one of the 4 letters
-  //If true, push an array with the two strings into our variable storing the array
-  //return the parent array, variable
+//If true, push an array with the two strings into our variable storing the array
+//return the parent array, variable
 //tools: split method, for loop, conditional statement
 
 function pairElement(str) {
   //your code here
   var pairs = [];
   var matchArray = str.split("");
-  for(var i = 0; i < matchArray.length; i++){
-    if (matchArray[i] === "G"){
-      pairs.push(["G","C"]);
-    }else if(matchArray[i] === "C"){
+  for (var i = 0; i < matchArray.length; i++) {
+    if (matchArray[i] === "G") {
+      pairs.push(["G", "C"]);
+    } else if (matchArray[i] === "C") {
       pairs.push(["C", "G"]);
-    }else if(matchArray === "A"){
+    } else if (matchArray[i] === "A") {
       pairs.push(["A", "T"]);
-    }else{
+    } else {
       pairs.push(["T", "A"]);
     }
   }
